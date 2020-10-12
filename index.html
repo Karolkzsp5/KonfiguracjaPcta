@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styl.css">
+</head>
+<body>
+<main>
+
+    <section id="select">
+        <table>
+            <tr>
+                <td>Płyta główna</td>
+                <td>
+                    <select name="mb" id="mb" onchange="SelectedItemValue('mb')">
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Karta graficzna</td>
+                <td>
+                    <select name="gpu" id="gpu" onchange="SelectedItemValue('gpu')">
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Procesor</td>
+                <td>
+                    <select name="cpu" id="cpu" onchange="SelectedItemValue('cpu')">
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ram DDR4</td>
+                <td>
+                    <select name="ram" id="ram" onchange="SelectedItemValue('ram')">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zasilacz</td>
+                <td>
+                    <select name="zasilacz" id="zasilacz" onchange="SelectedItemValue('zasilacz')">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Obudowa</td>
+                <td>
+                    <select name="obudowa" id="obudowa" onchange="SelectedItemValue('obudowa')">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Dysk SSD</td>
+                <td>
+                    <select name="ssd" id="ssd" onchange="SelectedItemValue('ssd')">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Dysk HDD</td>
+                <td>
+                    <select name="hdd" id="hdd" onchange="SelectedItemValue('hdd')">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chłodzenie procesora</td>
+                <td>
+                    <select name="fancpu" id="fancpu" onchange="SelectedItemValue('fancpu')">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Monitor</td>
+                <td>
+                    <select name="monitor" id="monitor" onchange="SelectedItemValue('monitor')">
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+    </section>
+    <table id="summaryComp">
+        <tr id="summaryCpu"></tr>
+        <tr  id="summaryGpu"></tr>
+        <tr id="summaryMb"></tr>
+        <tr id="summaryRam"></tr>
+        <tr id="summaryZasilacz"></tr>
+        <tr id="summaryObudowa"></tr>
+        <tr id="summarySSD"></tr>
+        <tr id="summaryHDD"></tr>
+        <tr id="summaryfancpu"></tr>
+        <tr id="summarymonitor"></tr>
+    </table>
+
+    <div id="sumALL"></div>
+
+    <script src="js/main.js"></script>
+</main>
+</body>
+</html>
