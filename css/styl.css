@@ -21,6 +21,9 @@ table#summaryComp td
     border-collapse: collapse;
 }
 #summaryComp img {
-    width: 180px;
+    width: 160px;
     height: auto;
+}
+table#summaryComp td{
+    text-align: center;
 }
